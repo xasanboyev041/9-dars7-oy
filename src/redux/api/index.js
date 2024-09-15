@@ -1,5 +1,5 @@
 import { createApi, retry, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
-import { logOut } from "../slices/authSlice";
+import { logOut } from "../slices/AuthSlices"
 
 const baseQuery = async (args, api, extraOptions) => {
   const { dispatch } = api;

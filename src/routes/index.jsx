@@ -6,7 +6,7 @@ const Home = lazy(() => import("../routes/home/Home"));
 const Profile = lazy(() => import("../routes/profile/Profile"));
 const Auth = lazy(() => import("../routes/auth/Auth"));
 const Login = lazy(() => import("../routes/auth/login/Login"));
-const SignUp = lazy(() => import("../routes/auth/signup/SignUp"));
+const SignUp = lazy(() => import("../routes/auth/singup/SingUp"));
 const NotFound = lazy(() => import("../routes/not-found/NotFound"));
 const Private = lazy(() => import("../routes/private/Private"));
 
